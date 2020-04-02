@@ -1,0 +1,2 @@
+class DigimonsController < ApplicationController
+end
