@@ -1,4 +1,4 @@
 class UserDigimonSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :user
   belongs_to :digimon
 end
