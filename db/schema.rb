@@ -19,15 +19,18 @@ ActiveRecord::Schema.define(version: 2020_04_02_000817) do
     t.string "name"
     t.string "level"
     t.string "sprite"
-    t.integer "energy"
     t.integer "health"
     t.integer "hygiene"
     t.integer "battle_stat"
+    t.string "evo1"
+    t.string "evo2"
+    t.string "evo3"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "user_digimons", force: :cascade do |t|
+    t.integer "energy"
     t.bigint "user_id", null: false
     t.bigint "digimon_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -39,6 +42,7 @@ ActiveRecord::Schema.define(version: 2020_04_02_000817) do
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "password_digest"
+    t.integer "point_collection"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

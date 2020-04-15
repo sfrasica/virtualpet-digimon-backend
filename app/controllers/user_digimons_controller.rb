@@ -28,7 +28,7 @@ class UserDigimonsController < ApplicationController
     def update
         @user_digimon = UserDigimon.find_by(id: params[:id])
         
-        @user_digimon.digimon.update(energy: params[:energy])
+        @user_digimon.update(energy: params[:energy])
         render json: @user_digimon
     end
 

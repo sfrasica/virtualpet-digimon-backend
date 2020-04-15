@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+ 
   resources :user_digimons, only: [:show, :create, :destroy, :index, :update]
   resources :digimons, only: [:index ]
-  resources :users, only: [:create, :index ]
+  resources :users, only: [:create, :index, :update ]
 
   post '/login', to: 'users#login'
 

@@ -11,7 +11,7 @@ class UsersController < ApplicationController
         if @user.valid?
             infoToSaveInBox = {user_id: @user.id}
             wristband = encode_token(infoToSaveInBox)
-            render json: {user: UserSerializer.new(@user), token: wristband}
+            render json: {user: UserSerializer.new(@user), token: wristband, point_collection: 0}
         else
             render json: {error: @user.errors.full_messages}
         end
@@ -34,10 +34,17 @@ class UsersController < ApplicationController
         end
       end
 
+    def update
+        @user = User.find_by(id: params[:id])
+        @user.update(point_collection: params[:point_collection])
+        render json: @user
+    end
+    
+
     private
 
     def user_params
-        params.permit(:username, :password)
+        params.permit(:username, :password, :point_collection)
     end
 
 
