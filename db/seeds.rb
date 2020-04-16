@@ -374,137 +374,145 @@ digimons = [
         hygiene: 10,
         health: 1500
         
-    }
-    # ,
+    },
     # ################ NEW SEED DATA##############################
-    #   {
-    #     id: 33,
-    #     name: "Veemon",
-    #     sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/ec/Veemon_vg.gif/revision/latest?cb=20100621213950",
-    #     level: "Rookie",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 100,
-    #     evo1: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d0w8w-60b731d1-7bc5-4497-be2b-89176e4894d9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkMHc4dy02MGI3MzFkMS03YmM1LTQ0OTctYmUyYi04OTE3NmU0ODk0ZDkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BRwspcNsM1S0UZmxZEn4PJb3zeLWHI9jvscA_Ei3-HQ",
-    #     evo2: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d0wtz-ce7b03d4-056f-4e32-81ee-927815246b1f.gif", 
-    #     evo3: "https://oi1383.photobucket.com/albums/ah288/Ma_Kensei/Sprites%20Digimon/Mega/Imperialdramon-fighter_zps7ed4870a.gif"
+      {
+        id: 33,
+        name: "Veemon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/ec/Veemon_vg.gif/revision/latest?cb=20100621213950",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d0w8w-60b731d1-7bc5-4497-be2b-89176e4894d9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkMHc4dy02MGI3MzFkMS03YmM1LTQ0OTctYmUyYi04OTE3NmU0ODk0ZDkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BRwspcNsM1S0UZmxZEn4PJb3zeLWHI9jvscA_Ei3-HQ",
+        evo2: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d0wtz-ce7b03d4-056f-4e32-81ee-927815246b1f.gif", 
+        evo3: "https://oi1383.photobucket.com/albums/ah288/Ma_Kensei/Sprites%20Digimon/Mega/Imperialdramon-fighter_zps7ed4870a.gif",
+        evo_id: 34
         
-    #   },
-    #   {
-    #     id: 34,
-    #     name: "ExVeemon",
-    #     sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d0w8w-60b731d1-7bc5-4497-be2b-89176e4894d9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkMHc4dy02MGI3MzFkMS03YmM1LTQ0OTctYmUyYi04OTE3NmU0ODk0ZDkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BRwspcNsM1S0UZmxZEn4PJb3zeLWHI9jvscA_Ei3-HQ",
-    #     level: "Champion",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 300
+      },
+      {
+        id: 34,
+        name: "ExVeemon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d0w8w-60b731d1-7bc5-4497-be2b-89176e4894d9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkMHc4dy02MGI3MzFkMS03YmM1LTQ0OTctYmUyYi04OTE3NmU0ODk0ZDkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BRwspcNsM1S0UZmxZEn4PJb3zeLWHI9jvscA_Ei3-HQ",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 35
         
-    #   },
-    #   {
-    #     id: 35,
-    #     name: "Paildramon",
-    #     sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d0wtz-ce7b03d4-056f-4e32-81ee-927815246b1f.gif", 
-    #     level: "Ultimate",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 700
+      },
+      {
+        id: 35,
+        name: "Paildramon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d0wtz-ce7b03d4-056f-4e32-81ee-927815246b1f.gif", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 36
         
-    #   },
-    #   {
-    #     id: 36,
-    #     name: "ImperialdramonFM",
-    #     sprite:  "https://oi1383.photobucket.com/albums/ah288/Ma_Kensei/Sprites%20Digimon/Mega/Imperialdramon-fighter_zps7ed4870a.gif",
-    #     level: "Mega",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 1500
+      },
+      {
+        id: 36,
+        name: "ImperialdramonFM",
+        sprite:  "https://oi1383.photobucket.com/albums/ah288/Ma_Kensei/Sprites%20Digimon/Mega/Imperialdramon-fighter_zps7ed4870a.gif",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500
         
-    #   },
-    #   {
-    #     id: 37,
-    #     name: "Wormmon",
-    #     sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d4zr0-15a5740d-1453-4e23-b5d2-37833fe98e39.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNHpyMC0xNWE1NzQwZC0xNDUzLTRlMjMtYjVkMi0zNzgzM2ZlOThlMzkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.FPxz03LbKu8jLwfG_LP21Z0h30PCzfa_c4vINoczz2s",
-    #     level: "Rookie",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 100,
-    #     evo1: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d4ztc-63f73952-3abf-42fc-bf45-aad9af287ca7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNHp0Yy02M2Y3Mzk1Mi0zYWJmLTQyZmMtYmY0NS1hYWQ5YWYyODdjYTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GcS7D53g31bVY7FvZUqfNVmqC1n2Qbhvk_y6sYzOpEI",
-    #     evo2: "https://vignette.wikia.nocookie.net/digimon/images/7/70/Dinobeemon_vg.gif/revision/latest?cb=20110129003815", 
-    #     evo3: "https://fc09.deviantart.net/fs71/f/2013/192/f/8/imperialdramon_by_digimongif-d6d0xfd.gif"
+      },
+      {
+        id: 37,
+        name: "Wormmon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d4zr0-15a5740d-1453-4e23-b5d2-37833fe98e39.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNHpyMC0xNWE1NzQwZC0xNDUzLTRlMjMtYjVkMi0zNzgzM2ZlOThlMzkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.FPxz03LbKu8jLwfG_LP21Z0h30PCzfa_c4vINoczz2s",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d4ztc-63f73952-3abf-42fc-bf45-aad9af287ca7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNHp0Yy02M2Y3Mzk1Mi0zYWJmLTQyZmMtYmY0NS1hYWQ5YWYyODdjYTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GcS7D53g31bVY7FvZUqfNVmqC1n2Qbhvk_y6sYzOpEI",
+        evo2: "https://vignette.wikia.nocookie.net/digimon/images/7/70/Dinobeemon_vg.gif/revision/latest?cb=20110129003815", 
+        evo3: "https://fc09.deviantart.net/fs71/f/2013/192/f/8/imperialdramon_by_digimongif-d6d0xfd.gif",
+        evo_id: 38
         
-    #   },
-    #   {
-    #     id: 38,
-    #     name: "Stingmon",
-    #     sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d4ztc-63f73952-3abf-42fc-bf45-aad9af287ca7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNHp0Yy02M2Y3Mzk1Mi0zYWJmLTQyZmMtYmY0NS1hYWQ5YWYyODdjYTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GcS7D53g31bVY7FvZUqfNVmqC1n2Qbhvk_y6sYzOpEI",
-    #     level: "Champion",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 300
+      },
+      {
+        id: 38,
+        name: "Stingmon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d4ztc-63f73952-3abf-42fc-bf45-aad9af287ca7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNHp0Yy02M2Y3Mzk1Mi0zYWJmLTQyZmMtYmY0NS1hYWQ5YWYyODdjYTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GcS7D53g31bVY7FvZUqfNVmqC1n2Qbhvk_y6sYzOpEI",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 39
         
-    #   },
-    #   {
-    #     id: 39,
-    #     name: "Dinobeemon",
-    #     sprite:  "https://vignette.wikia.nocookie.net/digimon/images/7/70/Dinobeemon_vg.gif/revision/latest?cb=20110129003815", 
-    #     level: "Ultimate",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 700
+      },
+      {
+        id: 39,
+        name: "Dinobeemon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/7/70/Dinobeemon_vg.gif/revision/latest?cb=20110129003815", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 40
         
-    #   },
-    #   {
-    #     id: 40,
-    #     name: "ImperialdramonDM",
-    #     sprite:  "https://fc09.deviantart.net/fs71/f/2013/192/f/8/imperialdramon_by_digimongif-d6d0xfd.gif",
-    #     level: "Mega",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 1500
+      },
+      {
+        id: 40,
+        name: "ImperialdramonDM",
+        sprite:  "https://fc09.deviantart.net/fs71/f/2013/192/f/8/imperialdramon_by_digimongif-d6d0xfd.gif",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500
         
-    #   },
-    #   {
-    #     id: 41,
-    #     name: "Guilmon",
-    #     sprite:  "https://pa1.narvii.com/6473/843870bc55c4fb470f8a5caea6391fe92259c498_hq.gif",
-    #     level: "Rookie",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 100,
-    #     evo1: "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/Guilmon%20EV/growlmon.gif",
-    #     evo2: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d64by-a3d5b20a-fac9-4ac2-806a-82180fe17c7e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNjRieS1hM2Q1YjIwYS1mYWM5LTRhYzItODA2YS04MjE4MGZlMTdjN2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Vw7ovPVBbRPMvCV_RBSe73Hp3nPbQIz3G6NRIOUlSrs", 
-    #     evo3: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6dan65-8c28e739-46b5-4df0-bdfa-d55e91561c94.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYW42NS04YzI4ZTczOS00NmI1LTRkZjAtYmRmYS1kNTVlOTE1NjFjOTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Em61LXML1lY1TL7dAeSQ_LfHlrIRPwqPf03iJd0f6Kw"
+      },
+      {
+        id: 41,
+        name: "Guilmon",
+        sprite:  "https://pa1.narvii.com/6473/843870bc55c4fb470f8a5caea6391fe92259c498_hq.gif",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/Guilmon%20EV/growlmon.gif",
+        evo2: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d64by-a3d5b20a-fac9-4ac2-806a-82180fe17c7e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNjRieS1hM2Q1YjIwYS1mYWM5LTRhYzItODA2YS04MjE4MGZlMTdjN2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Vw7ovPVBbRPMvCV_RBSe73Hp3nPbQIz3G6NRIOUlSrs", 
+        evo3: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6dan65-8c28e739-46b5-4df0-bdfa-d55e91561c94.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYW42NS04YzI4ZTczOS00NmI1LTRkZjAtYmRmYS1kNTVlOTE1NjFjOTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Em61LXML1lY1TL7dAeSQ_LfHlrIRPwqPf03iJd0f6Kw",
+        evo_id: 42
         
-    #   },
-    #   {
-    #     id: 42,
-    #     name: "Growlmon",
-    #     sprite:  "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/Guilmon%20EV/growlmon.gif",
-    #     level: "Champion",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 300
+      },
+      {
+        id: 42,
+        name: "Growlmon",
+        sprite:  "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/Guilmon%20EV/growlmon.gif",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 43
         
-    #   },
-    #   {
-    #     id: 43,
-    #     name: "WarGrowlmon",
-    #     sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d64by-a3d5b20a-fac9-4ac2-806a-82180fe17c7e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNjRieS1hM2Q1YjIwYS1mYWM5LTRhYzItODA2YS04MjE4MGZlMTdjN2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Vw7ovPVBbRPMvCV_RBSe73Hp3nPbQIz3G6NRIOUlSrs", 
-    #     level: "Ultimate",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 700
+      },
+      {
+        id: 43,
+        name: "WarGrowlmon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6d64by-a3d5b20a-fac9-4ac2-806a-82180fe17c7e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkNjRieS1hM2Q1YjIwYS1mYWM5LTRhYzItODA2YS04MjE4MGZlMTdjN2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Vw7ovPVBbRPMvCV_RBSe73Hp3nPbQIz3G6NRIOUlSrs", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 44
         
-    #   },
-    #   {
-    #     id: 44,
-    #     name: "Gallantmon",
-    #     sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6dan65-8c28e739-46b5-4df0-bdfa-d55e91561c94.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYW42NS04YzI4ZTczOS00NmI1LTRkZjAtYmRmYS1kNTVlOTE1NjFjOTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Em61LXML1lY1TL7dAeSQ_LfHlrIRPwqPf03iJd0f6Kw",
-    #     level: "Mega",
-    #     battle_stat: 5,
-    #     hygiene: 10,
-    #     health: 1500 
-    #   },
+      },
+      {
+        id: 44,
+        name: "Gallantmon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6dan65-8c28e739-46b5-4df0-bdfa-d55e91561c94.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYW42NS04YzI4ZTczOS00NmI1LTRkZjAtYmRmYS1kNTVlOTE1NjFjOTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Em61LXML1lY1TL7dAeSQ_LfHlrIRPwqPf03iJd0f6Kw",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
       # ########################## NEW SEED DATA 2 ###############################################
       # {
       #   id: 45,
@@ -548,132 +556,141 @@ digimons = [
       #   hygiene: 10,
       #   health: 1500 
       # },
-      # {
-      #   id: 45,
-      #   name: "Renamon",
-      #   sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqav-0737a6a4-dc7a-45b9-aaf4-28985827f3e6.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFhdi0wNzM3YTZhNC1kYzdhLTQ1YjktYWFmNC0yODk4NTgyN2YzZTYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JKUTxYP8ep-je5FIje3ITjW6c2bIwTlr_BrHWIUUkSE",
-      #   level: "Rookie",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 100,
-      #   evo1: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqd6-34a21f6b-938b-4e88-be77-ed6412c6da70.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFkNi0zNGEyMWY2Yi05MzhiLTRlODgtYmU3Ny1lZDY0MTJjNmRhNzAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SQ-km6EVhos0lZeXBgtJaepRXO-1zBjdCyn07KbMYZU",
-      #   evo2: "https://images.uncyc.org/pt/2/25/Taomon.gif", 
-      #   evo3: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqiz-9114f51b-0af1-4459-9d40-efd048fb84fa.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFpei05MTE0ZjUxYi0wYWYxLTQ0NTktOWQ0MC1lZmQwNDhmYjg0ZmEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ErUpfBFcetBVSaUn7eAi6toGmLMrJI-j55qqyIz8LCk"
+      {
+        id: 45,
+        name: "Renamon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqav-0737a6a4-dc7a-45b9-aaf4-28985827f3e6.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFhdi0wNzM3YTZhNC1kYzdhLTQ1YjktYWFmNC0yODk4NTgyN2YzZTYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JKUTxYP8ep-je5FIje3ITjW6c2bIwTlr_BrHWIUUkSE",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqd6-34a21f6b-938b-4e88-be77-ed6412c6da70.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFkNi0zNGEyMWY2Yi05MzhiLTRlODgtYmU3Ny1lZDY0MTJjNmRhNzAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SQ-km6EVhos0lZeXBgtJaepRXO-1zBjdCyn07KbMYZU",
+        evo2: "https://images.uncyc.org/pt/2/25/Taomon.gif", 
+        evo3: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqiz-9114f51b-0af1-4459-9d40-efd048fb84fa.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFpei05MTE0ZjUxYi0wYWYxLTQ0NTktOWQ0MC1lZmQwNDhmYjg0ZmEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ErUpfBFcetBVSaUn7eAi6toGmLMrJI-j55qqyIz8LCk",
+        evo_id: 46
         
-      # },
-      # {
-      #   id: 46,
-      #   name: "Kyubimon",
-      #   sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqd6-34a21f6b-938b-4e88-be77-ed6412c6da70.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFkNi0zNGEyMWY2Yi05MzhiLTRlODgtYmU3Ny1lZDY0MTJjNmRhNzAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SQ-km6EVhos0lZeXBgtJaepRXO-1zBjdCyn07KbMYZU",
-      #   level: "Champion",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 300
+      },
+      {
+        id: 46,
+        name: "Kyubimon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqd6-34a21f6b-938b-4e88-be77-ed6412c6da70.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFkNi0zNGEyMWY2Yi05MzhiLTRlODgtYmU3Ny1lZDY0MTJjNmRhNzAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SQ-km6EVhos0lZeXBgtJaepRXO-1zBjdCyn07KbMYZU",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 47
         
-      # },
-      # {
-      #   id: 47,
-      #   name: "Taomon",
-      #   sprite:  "https://images.uncyc.org/pt/2/25/Taomon.gif", 
-      #   level: "Ultimate",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 700
+      },
+      {
+        id: 47,
+        name: "Taomon",
+        sprite:  "https://images.uncyc.org/pt/2/25/Taomon.gif", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 48
         
-      # },
-      # {
-      #   id: 48,
-      #   name: "Sakuyamon",
-      #   sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqiz-9114f51b-0af1-4459-9d40-efd048fb84fa.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFpei05MTE0ZjUxYi0wYWYxLTQ0NTktOWQ0MC1lZmQwNDhmYjg0ZmEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ErUpfBFcetBVSaUn7eAi6toGmLMrJI-j55qqyIz8LCk",
-      #   level: "Mega",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 1500 
-      # },
-      # {
-      #   id: 49,
-      #   name: "Demidevimon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/7/76/DemiDevimon_vg.gif/revision/latest?cb=20100622005808",
-      #   level: "Rookie",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 100,
-      #   evo1: "https://media.giphy.com/media/40AsixUvblcli/200.gif",
-      #   evo2: "https://vignette.wikia.nocookie.net/digimon/images/5/5d/Phantomon_vg.gif/revision/latest/top-crop/width/150/height/150?cb=20130602030250", 
-      #   evo3: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/18527ba2-6cdb-42e8-b5bf-1a43b8ea5bd3/dbpm0ez-352325e4-e3e3-4c84-8e9a-16ece770435d.gif"
+      },
+      {
+        id: 48,
+        name: "Sakuyamon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55a75a2e-42e6-464c-bf86-36efd69aacd4/d6daqiz-9114f51b-0af1-4459-9d40-efd048fb84fa.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1YTc1YTJlLTQyZTYtNDY0Yy1iZjg2LTM2ZWZkNjlhYWNkNFwvZDZkYXFpei05MTE0ZjUxYi0wYWYxLTQ0NTktOWQ0MC1lZmQwNDhmYjg0ZmEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ErUpfBFcetBVSaUn7eAi6toGmLMrJI-j55qqyIz8LCk",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
+      {
+        id: 49,
+        name: "Demidevimon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/7/76/DemiDevimon_vg.gif/revision/latest?cb=20100622005808",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://media.giphy.com/media/40AsixUvblcli/200.gif",
+        evo2: "https://vignette.wikia.nocookie.net/digimon/images/5/5d/Phantomon_vg.gif/revision/latest/top-crop/width/150/height/150?cb=20130602030250", 
+        evo3: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/18527ba2-6cdb-42e8-b5bf-1a43b8ea5bd3/dbpm0ez-352325e4-e3e3-4c84-8e9a-16ece770435d.gif",
+        evo_id: 50
         
-      # },
-      # {
-      #   id: 50,
-      #   name: "Bakemon",
-      #   sprite:  "https://media.giphy.com/media/40AsixUvblcli/200.gif",
-      #   level: "Champion",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 300
+      },
+      {
+        id: 50,
+        name: "Bakemon",
+        sprite:  "https://media.giphy.com/media/40AsixUvblcli/200.gif",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 51
         
-      # },
-      # {
-      #   id: 51,
-      #   name: "Phantomon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/5/5d/Phantomon_vg.gif/revision/latest/top-crop/width/150/height/150?cb=20130602030250", 
-      #   level: "Ultimate",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 700
+      },
+      {
+        id: 51,
+        name: "Phantomon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/5/5d/Phantomon_vg.gif/revision/latest/top-crop/width/150/height/150?cb=20130602030250", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 52
         
-      # },
-      # {
-      #   id: 52,
-      #   name: "Piedmon",
-      #   sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/18527ba2-6cdb-42e8-b5bf-1a43b8ea5bd3/dbpm0ez-352325e4-e3e3-4c84-8e9a-16ece770435d.gif",
-      #   level: "Mega",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 1500 
-      # },
-      # {
-      #   id: 53,
-      #   name: "Betamon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/e5/Betamon_vg.gif/revision/latest?cb=20100621220156",
-      #   level: "Rookie",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 100,
-      #   evo1: "https://vignette.wikia.nocookie.net/digimon/images/9/96/Seadramon_vg.gif/revision/latest?cb=20130416002501",
-      #   evo2: "https://vignette.wikia.nocookie.net/digimon/images/7/77/MegaSeadramon_vg.gif/revision/latest?cb=20130602025826", 
-      #   evo3: "https://vignette.wikia.nocookie.net/digimon/images/2/25/MetalSeadramon_vg.gif/revision/latest?cb=20100822003608"
+      },
+      {
+        id: 52,
+        name: "Piedmon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/18527ba2-6cdb-42e8-b5bf-1a43b8ea5bd3/dbpm0ez-352325e4-e3e3-4c84-8e9a-16ece770435d.gif",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
+      {
+        id: 53,
+        name: "Betamon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/e5/Betamon_vg.gif/revision/latest?cb=20100621220156",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://vignette.wikia.nocookie.net/digimon/images/9/96/Seadramon_vg.gif/revision/latest?cb=20130416002501",
+        evo2: "https://vignette.wikia.nocookie.net/digimon/images/7/77/MegaSeadramon_vg.gif/revision/latest?cb=20130602025826", 
+        evo3: "https://vignette.wikia.nocookie.net/digimon/images/2/25/MetalSeadramon_vg.gif/revision/latest?cb=20100822003608",
+        evo_id: 54
         
-      # },
-      # {
-      #   id: 54,
-      #   name: "Seadramon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/9/96/Seadramon_vg.gif/revision/latest?cb=20130416002501",
-      #   level: "Champion",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 300
+      },
+      {
+        id: 54,
+        name: "Seadramon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/9/96/Seadramon_vg.gif/revision/latest?cb=20130416002501",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 55
         
-      # },
-      # {
-      #   id: 55,
-      #   name: "MegaSeadramon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/7/77/MegaSeadramon_vg.gif/revision/latest?cb=20130602025826", 
-      #   level: "Ultimate",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 700
+      },
+      {
+        id: 55,
+        name: "MegaSeadramon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/7/77/MegaSeadramon_vg.gif/revision/latest?cb=20130602025826", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 56
         
-      # },
-      # {
-      #   id: 56,
-      #   name: "MetalSeadramon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/2/25/MetalSeadramon_vg.gif/revision/latest?cb=20100822003608",
-      #   level: "Mega",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 1500 
-      # },
+      },
+      {
+        id: 56,
+        name: "MetalSeadramon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/2/25/MetalSeadramon_vg.gif/revision/latest?cb=20100822003608",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
       # # {
       # #   id: 57,
       # #   name: "Mushroomon",
@@ -716,48 +733,96 @@ digimons = [
       # #   hygiene: 10,
       # #   health: 1500 
       # # },,
-      # {
-      #   id: 61,
-      #   name: "Botamon",
-      #   sprite:  "https://rs114.pbsrc.com/albums/n259/First-light/Digimon%20dawn%20sprite%20animations/botamon.gif~c200",
-      #   level: "Rookie",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 100,
-      #   evo1: "https://media.giphy.com/media/xF8OUSnHEvXpu/200.gif",
-      #   evo2: "https://m.gifmania.co.uk/Manga-Anime-Animated-Gifs/Animated-Digimon/Virus/MetalTyrannomon/MetalTyrannomon-78504.gif", 
-      #   evo3: "https://vignette.wikia.nocookie.net/digimon/images/e/ea/MachineDramon_vg.gif/revision/latest?cb=20100612055545"
+      {
+        id: 61,
+        name: "Botamon",
+        sprite:  "https://rs114.pbsrc.com/albums/n259/First-light/Digimon%20dawn%20sprite%20animations/botamon.gif~c200",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://media.giphy.com/media/xF8OUSnHEvXpu/200.gif",
+        evo2: "https://m.gifmania.co.uk/Manga-Anime-Animated-Gifs/Animated-Digimon/Virus/MetalTyrannomon/MetalTyrannomon-78504.gif", 
+        evo3: "https://vignette.wikia.nocookie.net/digimon/images/e/ea/MachineDramon_vg.gif/revision/latest?cb=20100612055545",
+        evo_id: 62
         
-      # },
-      # {
-      #   id: 62,
-      #   name: "DarkTyrannomon",
-      #   sprite:  "https://media.giphy.com/media/xF8OUSnHEvXpu/200.gif",
-      #   level: "Champion",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 300
+      },
+      {
+        id: 62,
+        name: "DarkTyrannomon",
+        sprite:  "https://media.giphy.com/media/xF8OUSnHEvXpu/200.gif",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 63
         
-      # },
-      # {
-      #   id: 63,
-      #   name: "MetalTyrannomon",
-      #   sprite:  "https://m.gifmania.co.uk/Manga-Anime-Animated-Gifs/Animated-Digimon/Virus/MetalTyrannomon/MetalTyrannomon-78504.gif", 
-      #   level: "Ultimate",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 700
+      },
+      {
+        id: 63,
+        name: "MetalTyrannomon",
+        sprite:  "https://m.gifmania.co.uk/Manga-Anime-Animated-Gifs/Animated-Digimon/Virus/MetalTyrannomon/MetalTyrannomon-78504.gif", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 64
         
-      # },
-      # {
-      #   id: 64,
-      #   name: "Machinedramon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/ea/MachineDramon_vg.gif/revision/latest?cb=20100612055545",
-      #   level: "Mega",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 1500 
-      # },
+      },
+      {
+        id: 64,
+        name: "Machinedramon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/ea/MachineDramon_vg.gif/revision/latest?cb=20100612055545",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
+      {
+        id: 65,
+        name: "Gaomon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/6/6d/Gaomon_vg.gif/revision/latest?cb=20100630224522",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://vignette.wikia.nocookie.net/digimon/images/a/a6/Gaogamon_vg.gif/revision/latest?cb=20130417130523",
+        evo2: "https://vignette.wikia.nocookie.net/digimon/images/3/38/MachGaogamon_vg.gif/revision/latest?cb=20110129005056", 
+        evo3: "https://vignette.wikia.nocookie.net/digimon/images/0/03/MirageGaogamon_vg.gif/revision/latest?cb=20081231092751",
+        evo_id: 66
+        
+      },
+      {
+        id: 66,
+        name: "Gaogamon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/a/a6/Gaogamon_vg.gif/revision/latest?cb=20130417130523",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 67
+        
+      },
+      {
+        id: 67,
+        name: "MachGaogamon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/3/38/MachGaogamon_vg.gif/revision/latest?cb=20110129005056", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 68
+        
+      },
+      {
+        id: 68,
+        name: "MirageGaogamon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/ea/MachineDramon_vg.gif/revision/latest?cb=20100612055545",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
       # # {
       # #   id: 65,
       # #   name: "Dorumon",
@@ -800,174 +865,141 @@ digimons = [
       # #   hygiene: 10,
       # #   health: 1500 
       # # },
-      # {
-      #   id: 69,
-      #   name: "Coronamon",
-      #   sprite:  "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/Coronamon%20EV/coronamon.gif",
-      #   level: "Rookie",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 100,
-      #   evo1: "https://vignette.wikia.nocookie.net/digimon/images/c/cd/Firamon_vg.gif/revision/latest?cb=20130418113458",
-      #   evo2: "https://vignette.wikia.nocookie.net/digimon/images/8/8b/Flaremon_vg.gif/revision/latest?cb=20130418123950", 
-      #   evo3: "https://vignette.wikia.nocookie.net/digimon/images/f/f9/Apollomon_vg.gif/revision/latest/scale-to-width-down/150?cb=20081231092119"
+      {
+        id: 69,
+        name: "Coronamon",
+        sprite:  "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/Coronamon%20EV/coronamon.gif",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://vignette.wikia.nocookie.net/digimon/images/c/cd/Firamon_vg.gif/revision/latest?cb=20130418113458",
+        evo2: "https://vignette.wikia.nocookie.net/digimon/images/8/8b/Flaremon_vg.gif/revision/latest?cb=20130418123950", 
+        evo3: "https://vignette.wikia.nocookie.net/digimon/images/f/f9/Apollomon_vg.gif/revision/latest/scale-to-width-down/150?cb=20081231092119",
+        evo_id: 70 
+      },
+      {
+        id: 70,
+        name: "Firamon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/c/cd/Firamon_vg.gif/revision/latest?cb=20130418113458",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 71
         
-      # },
-      # {
-      #   id: 70,
-      #   name: "Firamon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/c/cd/Firamon_vg.gif/revision/latest?cb=20130418113458",
-      #   level: "Champion",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 300
+      },
+      {
+        id: 71,
+        name: "Flaremon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/8/8b/Flaremon_vg.gif/revision/latest?cb=20130418123950", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 72
         
-      # },
-      # {
-      #   id: 71,
-      #   name: "Flaremon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/8/8b/Flaremon_vg.gif/revision/latest?cb=20130418123950", 
-      #   level: "Ultimate",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 700
+      },
+      {
+        id: 72,
+        name: "Apollomon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/f/f9/Apollomon_vg.gif/revision/latest/scale-to-width-down/150?cb=20081231092119",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
+      {
+        id: 73,
+        name: "BlackGabumon",
+        sprite:  "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/5511065_orig.gif",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/9103654_orig.gif",
+        evo2: "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/2911824_orig.gif", 
+        evo3: "https://thumbs.gfycat.com/AridSillyBeagle-max-1mb.gif",
+        evo_id: 74
         
-      # },
-      # {
-      #   id: 72,
-      #   name: "Apollomon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/f/f9/Apollomon_vg.gif/revision/latest/scale-to-width-down/150?cb=20081231092119",
-      #   level: "Mega",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 1500 
-      # },
-      # {
-      #   id: 73,
-      #   name: "BlackGabumon",
-      #   sprite:  "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/5511065_orig.gif",
-      #   level: "Rookie",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 100,
-      #   evo1: "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/9103654_orig.gif",
-      #   evo2: "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/2911824_orig.gif", 
-      #   evo3: "https://thumbs.gfycat.com/AridSillyBeagle-max-1mb.gif"
+      },
+      {
+        id: 74,
+        name: "BlackGarurumon",
+        sprite:  "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/9103654_orig.gif",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 75
         
-      # },
-      # {
-      #   id: 74,
-      #   name: "BlackGarurumon",
-      #   sprite:  "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/9103654_orig.gif",
-      #   level: "Champion",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 300
+      },
+      {
+        id: 75,
+        name: "ShadowWereGarurumon",
+        sprite:  "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/2911824_orig.gif", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 76
         
-      # },
-      # {
-      #   id: 75,
-      #   name: "ShadowWereGarurumon",
-      #   sprite:  "https://digimonlegacy.weebly.com/uploads/1/8/2/9/18295795/2911824_orig.gif", 
-      #   level: "Ultimate",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 700
+      },
+      {
+        id: 76,
+        name: "BlackMetalGarurumon",
+        sprite:  "https://thumbs.gfycat.com/AridSillyBeagle-max-1mb.gif",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
+      {
+        id: 77,
+        name: "BlackAgumon",
+        sprite:  "https://rs899.pbsrc.com/albums/ac197/VashExe_2009/Digimones/BlackAgumon.gif~c200",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://media.giphy.com/media/CaXUNUpWR8Spa/200.gif",
+        evo2: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/18527ba2-6cdb-42e8-b5bf-1a43b8ea5bd3/dbpqcie-d717f83f-d1c1-44a5-b505-be2fb681874c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4NTI3YmEyLTZjZGItNDJlOC1iNWJmLTFhNDNiOGVhNWJkM1wvZGJwcWNpZS1kNzE3ZjgzZi1kMWMxLTQ0YTUtYjUwNS1iZTJmYjY4MTg3NGMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.W5bNNbAh6aRhNX8DXTS9xaTIUdX3Muzp1SHPBBRbYQA", 
+        evo3: "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/BlackAgumon%20EV/bkwargreymon.gif",
+        evo_id: 78
         
-      # },
-      # {
-      #   id: 76,
-      #   name: "BlackMetalGarurumon",
-      #   sprite:  "https://thumbs.gfycat.com/AridSillyBeagle-max-1mb.gif",
-      #   level: "Mega",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 1500 
-      # },
-      # {
-      #   id: 77,
-      #   name: "BlackAgumon",
-      #   sprite:  "https://rs899.pbsrc.com/albums/ac197/VashExe_2009/Digimones/BlackAgumon.gif~c200",
-      #   level: "Rookie",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 100,
-      #   evo1: "https://media.giphy.com/media/CaXUNUpWR8Spa/200.gif",
-      #   evo2: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/18527ba2-6cdb-42e8-b5bf-1a43b8ea5bd3/dbpqcie-d717f83f-d1c1-44a5-b505-be2fb681874c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4NTI3YmEyLTZjZGItNDJlOC1iNWJmLTFhNDNiOGVhNWJkM1wvZGJwcWNpZS1kNzE3ZjgzZi1kMWMxLTQ0YTUtYjUwNS1iZTJmYjY4MTg3NGMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.W5bNNbAh6aRhNX8DXTS9xaTIUdX3Muzp1SHPBBRbYQA", 
-      #   evo3: "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/BlackAgumon%20EV/bkwargreymon.gif"
+      },
+      {
+        id: 78,
+        name: "Tyrannomon",
+        sprite:  "https://media.giphy.com/media/CaXUNUpWR8Spa/200.gif",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 79
         
-      # },
-      # {
-      #   id: 78,
-      #   name: "Tyrannomon",
-      #   sprite:  "https://media.giphy.com/media/CaXUNUpWR8Spa/200.gif",
-      #   level: "Champion",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 300
+      },
+      {
+        id: 79,
+        name: "SkullGreymon",
+        sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/18527ba2-6cdb-42e8-b5bf-1a43b8ea5bd3/dbpqcie-d717f83f-d1c1-44a5-b505-be2fb681874c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4NTI3YmEyLTZjZGItNDJlOC1iNWJmLTFhNDNiOGVhNWJkM1wvZGJwcWNpZS1kNzE3ZjgzZi1kMWMxLTQ0YTUtYjUwNS1iZTJmYjY4MTg3NGMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.W5bNNbAh6aRhNX8DXTS9xaTIUdX3Muzp1SHPBBRbYQA", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 80
         
-      # },
-      # {
-      #   id: 79,
-      #   name: "SkullGreymon",
-      #   sprite:  "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/18527ba2-6cdb-42e8-b5bf-1a43b8ea5bd3/dbpqcie-d717f83f-d1c1-44a5-b505-be2fb681874c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4NTI3YmEyLTZjZGItNDJlOC1iNWJmLTFhNDNiOGVhNWJkM1wvZGJwcWNpZS1kNzE3ZjgzZi1kMWMxLTQ0YTUtYjUwNS1iZTJmYjY4MTg3NGMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.W5bNNbAh6aRhNX8DXTS9xaTIUdX3Muzp1SHPBBRbYQA", 
-      #   level: "Ultimate",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 700
-        
-      # },
-      # {
-      #   id: 80,
-      #   name: "BlackWarGreymon",
-      #   sprite:  "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/BlackAgumon%20EV/bkwargreymon.gif",
-      #   level: "Mega",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 1500 
-      # },
-      # {
-      #   id: 81,
-      #   name: "Gaomon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/6/6d/Gaomon_vg.gif/revision/latest?cb=20100630224522",
-      #   level: "Rookie",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 100,
-      #   evo1: "https://vignette.wikia.nocookie.net/digimon/images/a/a6/Gaogamon_vg.gif/revision/latest?cb=20130417130523",
-      #   evo2: "https://vignette.wikia.nocookie.net/digimon/images/3/38/MachGaogamon_vg.gif/revision/latest?cb=20110129005056", 
-      #   evo3: "https://vignette.wikia.nocookie.net/digimon/images/0/03/MirageGaogamon_vg.gif/revision/latest?cb=20081231092751"
-        
-      # },
-      # {
-      #   id: 82,
-      #   name: "Gaogamon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/a/a6/Gaogamon_vg.gif/revision/latest?cb=20130417130523",
-      #   level: "Champion",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 300
-        
-      # },
-      # {
-      #   id: 83,
-      #   name: "MachGaogamon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/3/38/MachGaogamon_vg.gif/revision/latest?cb=20110129005056", 
-      #   level: "Ultimate",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 700
-        
-      # },
-      # {
-      #   id: 84,
-      #   name: "MirageGaogamon",
-      #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/ea/MachineDramon_vg.gif/revision/latest?cb=20100612055545",
-      #   level: "Mega",
-      #   battle_stat: 5,
-      #   hygiene: 10,
-      #   health: 1500 
-      # }
+      },
+      {
+        id: 80,
+        name: "BlackWarGreymon",
+        sprite:  "https://oimg.photobucket.com/albums/v206/Rogue_Lei/Digimon/BlackAgumon%20EV/bkwargreymon.gif",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      }
+      
 
 
 
