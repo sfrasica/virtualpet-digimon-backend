@@ -32,5 +32,30 @@ class UserDigimonsController < ApplicationController
         render json: @user_digimon
     end
 
+    def digivolve_to_champ
+        @user_digimon = UserDigimon.find_by(id: params[:id])
+
+        @user_digimon.update(digimon_id: params[:digimon_id])
+        render json: @user_digimon
+
+    end
+
+    def digivolve_to_ult
+        @user_digimon = UserDigimon.find_by(id: params[:id])
+
+        @user_digimon.update(digimon_id: params[:digimon_id])
+        render json: @user_digimon
+
+    end
+
+    def digivolve_to_mega
+        @user_digimon = UserDigimon.find_by(id: params[:id])
+
+        @user_digimon.update(digimon_id: params[:digimon_id])
+        render json: @user_digimon
+
+    end
+
+
 
 end

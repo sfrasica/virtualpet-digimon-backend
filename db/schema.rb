@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2020_04_02_000817) do
     t.string "evo1"
     t.string "evo2"
     t.string "evo3"
+    t.integer "evo_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

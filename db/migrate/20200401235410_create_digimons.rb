@@ -10,6 +10,7 @@ class CreateDigimons < ActiveRecord::Migration[6.0]
       t.string :evo1
       t.string :evo2
       t.string :evo3
+      t.integer :evo_id
 
       t.timestamps
     end
