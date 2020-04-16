@@ -648,22 +648,22 @@ digimons = [
       },
       {
         id: 53,
-        name: "Betamon",
-        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/e5/Betamon_vg.gif/revision/latest?cb=20100621220156",
+        name: "Mushroomon",
+        sprite:  "https://pa1.narvii.com/6396/5d22580d7ff9e01f75e61debd8d013e98f32fc2c_00.gif",
         level: "Rookie",
         battle_stat: 5,
         hygiene: 10,
         health: 100,
-        evo1: "https://vignette.wikia.nocookie.net/digimon/images/9/96/Seadramon_vg.gif/revision/latest?cb=20130416002501",
-        evo2: "https://vignette.wikia.nocookie.net/digimon/images/7/77/MegaSeadramon_vg.gif/revision/latest?cb=20130602025826", 
-        evo3: "https://vignette.wikia.nocookie.net/digimon/images/2/25/MetalSeadramon_vg.gif/revision/latest?cb=20100822003608",
+        evo1: "https://vignette.wikia.nocookie.net/digimon/images/0/01/Woodmon_vg.gif/revision/latest?cb=20130418134214",
+        evo2: "https://vignette.wikia.nocookie.net/digimon/images/9/99/Cherrymon_vg.gif/revision/latest?cb=20130421021006", 
+        evo3: "https://vignette.wikia.nocookie.net/digimon/images/4/42/Puppetmon_vg.gif/revision/latest?cb=20130418122934",
         evo_id: 54
         
       },
       {
         id: 54,
-        name: "Seadramon",
-        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/9/96/Seadramon_vg.gif/revision/latest?cb=20130416002501",
+        name: "Woodmon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/0/01/Woodmon_vg.gif/revision/latest?cb=20130418134214",
         level: "Champion",
         battle_stat: 5,
         hygiene: 10,
@@ -673,8 +673,8 @@ digimons = [
       },
       {
         id: 55,
-        name: "MegaSeadramon",
-        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/7/77/MegaSeadramon_vg.gif/revision/latest?cb=20130602025826", 
+        name: "Cherrymon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/9/99/Cherrymon_vg.gif/revision/latest?cb=20130421021006", 
         level: "Ultimate",
         battle_stat: 5,
         hygiene: 10,
@@ -684,6 +684,51 @@ digimons = [
       },
       {
         id: 56,
+        name: "Puppetmon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/4/42/Puppetmon_vg.gif/revision/latest?cb=20130418122934",
+        level: "Mega",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 1500 
+      },
+      {
+        id: 57,
+        name: "Betamon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/e/e5/Betamon_vg.gif/revision/latest?cb=20100621220156",
+        level: "Rookie",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 100,
+        evo1: "https://vignette.wikia.nocookie.net/digimon/images/9/96/Seadramon_vg.gif/revision/latest?cb=20130416002501",
+        evo2: "https://vignette.wikia.nocookie.net/digimon/images/7/77/MegaSeadramon_vg.gif/revision/latest?cb=20130602025826", 
+        evo3: "https://vignette.wikia.nocookie.net/digimon/images/2/25/MetalSeadramon_vg.gif/revision/latest?cb=20100822003608",
+        evo_id: 58
+        
+      },
+      {
+        id: 58,
+        name: "Seadramon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/9/96/Seadramon_vg.gif/revision/latest?cb=20130416002501",
+        level: "Champion",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 300,
+        evo_id: 59
+        
+      },
+      {
+        id: 59,
+        name: "MegaSeadramon",
+        sprite:  "https://vignette.wikia.nocookie.net/digimon/images/7/77/MegaSeadramon_vg.gif/revision/latest?cb=20130602025826", 
+        level: "Ultimate",
+        battle_stat: 5,
+        hygiene: 10,
+        health: 700,
+        evo_id: 60
+        
+      },
+      {
+        id: 60,
         name: "MetalSeadramon",
         sprite:  "https://vignette.wikia.nocookie.net/digimon/images/2/25/MetalSeadramon_vg.gif/revision/latest?cb=20100822003608",
         level: "Mega",
@@ -691,48 +736,7 @@ digimons = [
         hygiene: 10,
         health: 1500 
       },
-      # # {
-      # #   id: 57,
-      # #   name: "Mushroomon",
-      # #   sprite:  "https://pa1.narvii.com/6396/5d22580d7ff9e01f75e61debd8d013e98f32fc2c_00.gif",
-      # #   level: "Rookie",
-      # #   battle_stat: 5,
-      # #   hygiene: 10,
-      # #   health: 100,
-      # #   evo1: "https://vignette.wikia.nocookie.net/digimon/images/0/01/Woodmon_vg.gif/revision/latest?cb=20130418134214",
-      # #   evo2: "https://vignette.wikia.nocookie.net/digimon/images/9/99/Cherrymon_vg.gif/revision/latest?cb=20130421021006", 
-      # #   evo3: "https://vignette.wikia.nocookie.net/digimon/images/4/42/Puppetmon_vg.gif/revision/latest?cb=20130418122934"
-        
-      # # },
-      # # {
-      # #   id: 58,
-      # #   name: "Woodmon",
-      # #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/0/01/Woodmon_vg.gif/revision/latest?cb=20130418134214",
-      # #   level: "Champion",
-      # #   battle_stat: 5,
-      # #   hygiene: 10,
-      # #   health: 300
-        
-      # # },
-      # # {
-      # #   id: 59,
-      # #   name: "Cherrymon",
-      # #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/9/99/Cherrymon_vg.gif/revision/latest?cb=20130421021006", 
-      # #   level: "Ultimate",
-      # #   battle_stat: 5,
-      # #   hygiene: 10,
-      # #   health: 700
-        
-      # # },
-      # # {
-      # #   id: 60,
-      # #   name: "Puppetmon",
-      # #   sprite:  "https://vignette.wikia.nocookie.net/digimon/images/4/42/Puppetmon_vg.gif/revision/latest?cb=20130418122934",
-      # #   level: "Mega",
-      # #   battle_stat: 5,
-      # #   hygiene: 10,
-      # #   health: 1500 
-      # # },,
+      
       {
         id: 61,
         name: "Botamon",
